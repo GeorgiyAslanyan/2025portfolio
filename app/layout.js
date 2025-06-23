@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body cz-shortcut-listen="false" className={manrope.className + " overflow-x-hidden  "}>
-        <div className="pointer-events-none fixed inset-0 select-none bg-[url('/grid-black.svg')] bg-top bg-repeat dark:bg-[url('/grid.svg')] ">
+        <div className="pointer-events-none fixed inset-0 select-none bg-top bg-repeat bg-[url('/grid.svg')] ">
        </div>
         <Navbar />
         <div className="inset-0 relative w-screen  flex justify-center sm:px-8">

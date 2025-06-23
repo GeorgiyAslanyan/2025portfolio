@@ -4,7 +4,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="max-w-[681px]">
-      <div className="flex flex-col items-center sm:items-start text-center sm:text-start gap-0 sm:gap-4 text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl leading-[1.4] ">
+      <div className="flex flex-col items-center sm:items-start text-center sm:text-start gap-0 sm:gap-4 text-4xl font-bold tracking-tight text-zinc-100 sm:text-5xl leading-[1.4] ">
         <div className="rounded-full p-1  bg-gradient-to-b w-fit shadow-lg shadow-zinc-800/5 ring-1  backdrop-blur-md from-zinc-900/70 to-zinc-800/90 ring-zinc-100/10 [--spotlight-color:rgb(217_249_157_/_0.07)]">
           <Image width={80} height={80} src="/avatar.png" alt="ava" className="rounded-full"/>
         </div>

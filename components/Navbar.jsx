@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="fixed z-[100] top-0 left-0 w-screen p-3 flex justify-center text-[#e4e4e7]">
       
-        <nav className="group rounded-full w-fit gap-7  bg-gradient-to-b px-5 py-3 from-zinc-50/70 to-white/90 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur-md dark:from-zinc-900/70 dark:to-zinc-800/90 dark:ring-zinc-100/10 [--spotlight-color:rgb(236_252_203_/_0.6)] dark:[--spotlight-color:rgb(217_249_157_/_0.07)] pointer-events-auto relative z-50 hidden md:flex">
+        <nav className="group rounded-full w-fit gap-7  bg-gradient-to-b px-5 py-3  shadow-lg shadow-zinc-800/5 ring-1 backdrop-blur-md from-zinc-900/70 to-zinc-800/90 ring-zinc-100/10 [--spotlight-color:rgb(217_249_157_/_0.07)] pointer-events-auto relative z-50 hidden md:flex">
         <a className=" hover:text-lime-400" href={"/#about"}>обо мне</a>
         <a className="hover:text-lime-400" href={"/#projects"}>проекты</a>
         <a className="hover:text-lime-400" href={"/#contacts"}>связаться</a>
