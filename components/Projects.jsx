@@ -55,7 +55,7 @@ const Projects = () => {
             <div key={el._id || index}>
               {" "}
               {/* 5. Лучше использовать уникальный id из данных */}
-              <SpotlightCard>
+              <SpotlightCard className="h-full">
                 <div className="flex flex-col gap-2">
                   {el.images?.[0] && ( // 6. Проверка на наличие изображения
                     <Image
@@ -90,7 +90,10 @@ const Projects = () => {
                       )}
                     </div>
                   )}
-                  <a href={el.git} target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-lime-400">github</a>
+                  <div className="flex gap-2">
+                    {(el.git?.length > 0) && <a href={el.git} target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-lime-400">github</a>}
+                  {(el.linkto?.length > 0) && <a href={el.linkto} target="_blank" rel="noopener noreferrer" className="text-white hover:underline hover:text-lime-400">visit</a>}
+                  </div>
                   </div>
                 </div>
               </SpotlightCard>

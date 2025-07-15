@@ -5,6 +5,7 @@ export default {
   fields: [
     { type: "string", title: "Дата", name: "date" },
     { type: "string", title: "Git", name: "git" },
+    { type: "string", title: "LinkTo", name: "linkto" },
     { type: "string", title: "Название", name: "title" },
     { type: "string", title: "Ссылка", name: "link" },
     {
